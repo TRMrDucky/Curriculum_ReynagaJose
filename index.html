@@ -1,65 +1,91 @@
-<Doctype html>
-  <html>
-    <head>
-      <title>Curriculum</title>
-      <meta charset="utf-8" />
-    </head>
-    <body>
-      <header>
-        <a href="index.html">Curriculum</a>
-        <a href="interests.html">Intereses</a>
-        <a href="schedule.html">Horario</a>
-      </header>
-      <main>
-        <h1>Curriculum</h1>
-        <p>Este es el curriculum de José Ramón Reynaga Núñez</p>
-        <img src="./joserra.jpg" alt="Imagen del JoserraZX" width="300" />
-        <p>
-          Este es mi correo electrónico personal para contacto:
-          vv094673@gmail.com <br />
-          para cualquier duda, sugerencia o comentario, puedes escribirme en el
-          correo electrónico.
-        </p>
-      </main>
-      <section>
-        <h3>Biografía</h3>
-        <p>
-          Mi nombre es José Ramón Reynaga, tengo 20 años y actualmente estoy
-          estudiando ingeniería de Software en el Instituto Tecnológico de
-          Sonora (ITSON). <br />
-          Nací en Ciudad Obregón, Sonora, México, en el año 2005. Un sábado muy
-          caluroso de julio.
-          <br />Desde pequeñito me crié con mis abuelos, el único de tres
-          hermanos criado así, actualmente sigo viviendo con ellos. <br />Tengo
-          un gusto particular por la música y el arte, sobre todo el rock en
-          español y las pinturas al óleo. <br />Aunque no la practico mucho, sé
-          tocar algo de guitarra. Mi sueño siempre fue ser escritor.
-        </p>
-      </section>
-      <section>
-        <h3>Educación</h3>
-        <ul>
-            <li>2011 - 2017: Educación Primaria en Colegio Obregón</li>
-            <li>2017 - 2020: Educación Secundaria en Colegio Obregón</li>
-            <li>2020 - 2023: Educación Preparatoria en Colegio Obregón</li>
-            <li>2023 - Actualidad: Carrera de Ingeniería de Software en ITSON</li>
-        </ul>
-        <h3>Idiomas</h3>
-        <ol>
-          <li>Español - Nativo</li>
-          <li>Inglés - B1</li>
-        </ol>
-      </section>
-      <section>
-        <h3>Experiencia laboral</h3>
-        <table>
-          <thead>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="nav-link">Curriculum</a>
+        <a href="interests.html" class="nav-link">Intereses</a>
+        <a href="schedule.html" class="nav-link">Horario</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Curriculum</h1>
+      <p>Este es el curriculum de <strong>José Ramón Reynaga Núñez</strong></p>
+      <img
+        src="./joserra.jpg"
+        alt="Imagen del JoserraZX"
+        class="profile-img"
+      />
+
+      <p>
+        Este es mi correo electrónico personal para contacto:
+        vv094673@gmail.com.
+        <br />
+        Para cualquier duda, sugerencia o comentario, puedes escribirme en el
+        correo electrónico.
+      </p>
+    </main>
+
+    <section>
+      <h2>Biografía</h2>
+      <p>
+        Mi nombre es José Ramón Reynaga, tengo 20 años y actualmente estoy
+        estudiando ingeniería de Software en el Instituto Tecnológico de Sonora
+        (ITSON).
+      </p>
+      <p>
+        Nací en Ciudad Obregón, Sonora, México, en el año 2005. Un sábado muy
+        caluroso de julio.
+      </p>
+      <p>
+        Desde pequeñito me crié con mis abuelos, el único de tres hermanos criado
+        así, actualmente sigo viviendo con ellos.
+      </p>
+      <p>
+        Tengo un gusto particular por la música y el arte, sobre todo el rock en
+        español y las pinturas al óleo. Aunque no la practico mucho, sé tocar
+        algo de guitarra. Mi sueño siempre fue ser escritor.
+      </p>
+    </section>
+
+    <section>
+      <h2>Educación</h2>
+      <ul class="education-list">
+        <li>2011 - 2017: Educación Primaria en Colegio Obregón</li>
+        <li>2017 - 2020: Educación Secundaria en Colegio Obregón</li>
+        <li>2020 - 2023: Educación Preparatoria en Colegio Obregón</li>
+        <li>
+          2023 - Actualidad: Carrera de Ingeniería de Software en ITSON
+        </li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <ol class="language-list">
+        <li>Español - Nativo</li>
+        <li>Inglés - B1</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Experiencia laboral</h2>
+      <table class="experience-table">
+        <thead>
+          <tr>
             <th>Fecha</th>
             <th>Lugar</th>
             <th>Puesto</th>
-            <th>Descripción</th></thead>
-          </thead>
-          <tbody>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>junio 2020 - diciembre 2020</td>
             <td>Ferretería</td>
             <td>Dependiente de tienda</td>
@@ -71,19 +97,23 @@
             <td>Mesero - Caja</td>
             <td>Levantamiento de órdenes y control de la caja</td>
           </tr>
-          <td>julio 2025 - Actualidad</td>
+          <tr>
+            <td>julio 2025 - Actualidad</td>
             <td>Ferretería</td>
             <td>Dependiente de tienda</td>
             <td>Brindar atención y orientación a los clientes</td>
+          </tr>
         </tbody>
-        </table>
-      </section>
-      <footer>
-        <a href="https://github.com/TRMrDucky">GitHub</a>
-        <a href="https://www.threads.com/joserra_u.u/">Threads</a>
-        <a href="https://instagram.com/joserra_u.u">Instagram</a><br />
+      </table>
+    </section>
+
+    <footer>
+      <a href="https://github.com/TRMrDucky">GitHub</a> |
+      <a href="https://www.threads.com/joserra_u.u/">Threads</a> |
+      <a href="https://instagram.com/joserra_u.u">Instagram</a>
+      <p class="footer-note">
         José Ramón Reynaga Núñez - Septiembre 2025
-      </footer>
-    </body>
-  </html></Doctype
->
+      </p>
+    </footer>
+  </body>
+</html>
