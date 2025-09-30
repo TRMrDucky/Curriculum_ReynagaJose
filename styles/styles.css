@@ -1,0 +1,62 @@
+.profile-img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+  border: 3px solid #d4a373;
+}
+
+.education-list, .language-list {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.education-list li, .language-list li {
+  padding: 5px;
+}
+
+.experience-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.experience-table th, 
+.experience-table td {
+  border: 1px solid #ccd5ae;
+  padding: 10px;
+  text-align: left;
+}
+
+.experience-table thead {
+  background-color: #e9edc9;
+}
+
+.interests-list {
+  list-style-type: square;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.interests-list li {
+  padding: 5px;
+  color: #333;
+}
+
+/* ===== SCHEDULE ===== */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table th, 
+.schedule-table td {
+  border: 1px solid #ccd5ae;
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-color: #d4a373;
+  color: white;
+}
